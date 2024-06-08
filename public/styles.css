@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.title {
+    color: #363636;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+.subtitle{
+    color: red;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.box {
+    background-color: #abfff6;
+    border-radius: 6px;
+    box-shadow: 20px 2em 1em 0em rgb(82 133 136), 0 0 0 1px rgb(164 0 63);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+}
+
+.button {
+    font-weight: 700;
+}
+
+.card {
+    margin-top: 1rem;
+    background-color: #fff9f9;
+    border-radius: 5px;
+    box-shadow: 12px 14px 7px 0px rgb(53 130 94 / 62%);
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-header {
+    background-color: #00d1b2;
+    color: white;
+    padding: 0.5rem;
+}
+
+.columns {
+    margin-top: 1rem;
+}
+
+.column {
+    padding: 1rem;
+}
+
+.card-header-title {
+    font-weight: 700;
+}
+
+.is-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    color: rgb(234, 24, 24);
+    cursor: pointer;
+    text-shadow: 2px 3px 0px black;
+}
+.delete-btn:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: red;
+    text-shadow: 2px 3px 0px rgb(255,/* codered-369 */ 255, 255);
+    transform: translate3d(-10px);
+}
+
+.edit-btn {
+    color: blue;
+    cursor: pointer;
+}
